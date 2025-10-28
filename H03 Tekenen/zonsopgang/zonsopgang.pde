@@ -1,0 +1,10 @@
+size(800,600);
+int W = 800;
+noStroke();
+fill(24, 51, 84); rect(0, 0, W, 200);
+fill(43, 89, 120); rect(0, 200, W, 200);
+fill(255, 215, 166); rect(0, 400, W, 200);
+fill(255, 209, 102);
+stroke(255, 209, 102);
+strokeWeight(3);
+ellipse(W/2, 400, 120, 120);
