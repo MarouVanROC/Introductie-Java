@@ -1,0 +1,27 @@
+int x = 400;
+int y = 400;
+
+size(800,800);
+background(200,200,200);
+noStroke();
+fill(250,220,196);
+ellipse(x, y, 250, 290);
+fill(0,0,0);
+arc(x, y + 50, 100, 100, 0, 3.1);
+fill(255,0,0);
+arc(x, y + 50, 40, 40, 0, 3.1);
+fill(0,0,0);
+ellipse(x - 60, y - 50, 90, 20);
+ellipse(x + 60, y - 50, 90, 20);
+noFill();
+fill(255,255,255);
+ellipse(x - 60, y - 50, 90, 20);
+ellipse(x + 60, y - 50, 90, 20);
+stroke(0,0,0);
+fill(0,0,0);
+ellipse(x - 60, y - 50, 45, 10);
+ellipse(x + 60, y - 50, 45, 10);
+fill(255,255,255);
+noStroke();
+arc(x - 50, y - 100, 50, 20, 0, 3.1);
+arc(x + 50, y - 100, 50, 20, 0, 3.1);
